@@ -1,10 +1,8 @@
-package variables
+package basics
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func Greeting() {
+func Variables() {
 	fmt.Println("Learn Go Variables")
 	/* Variables & inferred typing */
 	/*
