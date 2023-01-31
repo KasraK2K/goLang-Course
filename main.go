@@ -19,4 +19,5 @@ func main() {
 	basics.Variables() // In this line `basics` is name of package we wrote in variables file eq: package basics
 	basics.Constants()
 	basics.Print()
+	basics.Functions()
 }
