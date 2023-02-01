@@ -20,4 +20,5 @@ func main() {
 	basics.Constants()
 	basics.Print()
 	basics.Functions()
+	basics.Pointer()
 }
