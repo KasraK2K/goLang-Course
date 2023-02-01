@@ -21,4 +21,5 @@ func main() {
 	basics.Print()
 	basics.Functions()
 	basics.Pointer()
+	basics.For()
 }
