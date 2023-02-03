@@ -14,4 +14,5 @@ func main() {
 	basics.Functions()
 	basics.Pointer()
 	basics.For()
+	basics.Mutability()
 }
