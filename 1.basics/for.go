@@ -1,9 +1,9 @@
-package basics
+package __basics
 
 import "fmt"
 
 func For() {
-	fmt.Println("Learn Go Print") // Use fmt.Println to print in new line
+	fmt.Println("Learn Go For")
 
 	/* Print */
 	/*
