@@ -1,11 +1,11 @@
-package basics
+package __basics
 
 import (
 	"fmt"
 )
 
 func Pointer() {
-	fmt.Println("Learn Go Pointer") // Use fmt.Println to print in new line
+	fmt.Println("Learn Go Pointer")
 
 	/* Pointer */
 	/*

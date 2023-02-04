@@ -1,9 +1,9 @@
-package basics
+package __basics
 
 import "fmt"
 
 func Mutability() {
-	fmt.Println("Learn Go Mutability") // Use fmt.Println to print in new line
+	fmt.Println("Learn Go Mutability")
 
 	/* Pointer */
 	/*
