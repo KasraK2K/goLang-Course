@@ -20,4 +20,5 @@ func main() {
 
 	// Types
 	__types.BasicTypes()
+	__types.TypeConversion()
 }
