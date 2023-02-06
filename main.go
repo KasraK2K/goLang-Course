@@ -17,6 +17,7 @@ func main() {
 	__basics.Pointer()
 	__basics.For()
 	__basics.Mutability()
+	__basics.If()
 
 	// Types
 	__types.BasicTypes()
