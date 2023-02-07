@@ -18,6 +18,7 @@ func main() {
 	__basics.For()
 	__basics.Mutability()
 	__basics.If()
+	__basics.Switch()
 
 	// Types
 	__types.BasicTypes()
