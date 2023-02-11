@@ -20,6 +20,7 @@ func main() {
 	__basics.If()
 	__basics.Switch()
 	__basics.Array()
+	__basics.Slice()
 
 	// Types
 	__types.BasicTypes()
