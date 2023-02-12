@@ -13,7 +13,6 @@ func Functions() {
 		fmt.Printf("2 + 4 = %d", x)
 		//--------------------------------------------------
 	*/
-
 }
 
 func sum(x int, y int) int {
