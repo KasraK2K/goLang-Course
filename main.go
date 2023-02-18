@@ -24,6 +24,7 @@ func main() {
 	__basics.Range()
 	__basics.Functions()
 	__basics.MultipleReturn()
+	__basics.VariadicFunctions()
 
 	// Types
 	__types.BasicTypes()
