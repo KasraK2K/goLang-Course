@@ -25,6 +25,7 @@ func main() {
 	__basics.Functions()
 	__basics.MultipleReturn()
 	__basics.VariadicFunctions()
+	__basics.Closures()
 
 	// Types
 	__types.BasicTypes()
