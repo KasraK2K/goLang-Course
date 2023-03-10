@@ -26,6 +26,7 @@ func main() {
 	__basics.MultipleReturn()
 	__basics.VariadicFunctions()
 	__basics.Closures()
+	__basics.Recursion()
 
 	// Types
 	__types.BasicTypes()
