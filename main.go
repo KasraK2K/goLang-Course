@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goLang-Course/1.basics"
+	__basics "goLang-Course/1.basics"
 	__types "goLang-Course/2.types"
 )
 
@@ -28,6 +28,7 @@ func main() {
 	__basics.Recursion()
 	__basics.Pointers()
 	__basics.Mutability()
+	__basics.String()
 
 	// Types
 	__types.BasicTypes()
