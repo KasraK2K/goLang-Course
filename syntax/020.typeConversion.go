@@ -1,9 +1,9 @@
-package __types
+package syntax
 
 import "fmt"
 
 func TypeConversion() {
-	fmt.Println("Learn Go TypeConversion") // Use fmt.Println to print in new line
+	fmt.Println("Learn Go Type Conversion") // Use fmt.Println to print in new line
 
 	/* Pointer */
 	/*

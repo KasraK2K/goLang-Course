@@ -1,11 +1,11 @@
-package __types
+package syntax
 
 import "fmt"
 
 func BasicTypes() {
-	fmt.Println("Learn Go BasicTypes") // Use fmt.Println to print in new line
+	fmt.Println("Learn Go Basic Types") // Use fmt.Println to print in new line
 
-	/* Pointer */
+	/* Basic Types */
 	/*
 		//--------------------------------------------------
 		bool

@@ -1,4 +1,4 @@
-package __basics
+package syntax
 
 import (
 	"fmt"
