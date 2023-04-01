@@ -30,4 +30,5 @@ func main() {
 	syntax.String()
 	syntax.BasicTypes()
 	syntax.TypeConversion()
+	syntax.Struct()
 }
