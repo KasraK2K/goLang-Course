@@ -2,21 +2,30 @@ package syntax
 
 import "fmt"
 
-type person struct {
-	name string
-	age  int
+type Person interface {
+	fullName() string
 }
 
-func newPerson(name string) *person {
-	p := person{name: name}
-	p.age = 42
-	return &p
+type Employees struct {
+	firstName string
+	surname   string
 }
 
-func Struct() {
-	fmt.Println("Learn Go Struct")
+func (e Employees) fullName() string {
+	return fmt.Sprintf("%s %s", e.firstName, e.surname)
+}
 
-	/* Struct */
+func personTask(p Person) {
+	fmt.Println(p.fullName())
+}
+
+func Interface() {
+	fmt.Println("Learn Go Interface")
+
+	e := Employees{firstName: "John", surname: "Doe"}
+	personTask(e)
+
+	/* Interface */
 	/*
 		//--------------------------------------------------
 		fmt.Println(person{"Bob", 20})
