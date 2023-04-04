@@ -31,4 +31,5 @@ func main() {
 	syntax.BasicTypes()
 	syntax.TypeConversion()
 	syntax.Struct()
+	syntax.Interface()
 }
