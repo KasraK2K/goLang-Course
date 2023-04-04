@@ -32,4 +32,5 @@ func main() {
 	syntax.TypeConversion()
 	syntax.Struct()
 	syntax.Interface()
+	syntax.StructEmbedded()
 }
