@@ -7,18 +7,17 @@ import (
 func Generic() {
 	fmt.Println("Learn Go Generic")
 
-	x := 3
-	y := 5
-	swap(&x, &y)
-	fmt.Println(x, y)
-
-	words := []string{"apple", "banana", "cherry", "banana", "date", "banana"}
-	countOfBananas := count(words, "banana")
-	fmt.Println(countOfBananas) // Output: 3
-
 	/* Generic */
 	/*
 		//--------------------------------------------------
+		x := 3
+		y := 5
+		swap(&x, &y)
+		fmt.Println(x, y)
+
+		words := []string{"apple", "banana", "cherry", "banana", "date", "banana"}
+		countOfBananas := count(words, "banana")
+		fmt.Println(countOfBananas) // Output: 3
 		//--------------------------------------------------
 	*/
 }
