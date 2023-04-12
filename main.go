@@ -34,4 +34,5 @@ func main() {
 	syntax.Interface()
 	syntax.StructEmbedded()
 	syntax.Generic()
+	syntax.Goroutines()
 }
