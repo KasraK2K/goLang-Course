@@ -13,7 +13,7 @@ func Goroutines() {
 		f("direct") // this function runs synchronously
 
 		go f("goroutine") // this function runs asynchronously
-	
+
 		go func(msg string) {
 			fmt.Println(msg)
 		}("going") // this function runs asynchronously
