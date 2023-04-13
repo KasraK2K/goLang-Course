@@ -35,4 +35,5 @@ func main() {
 	syntax.StructEmbedded()
 	syntax.Generic()
 	syntax.Goroutines()
+	syntax.Channels()
 }
