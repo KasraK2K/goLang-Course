@@ -36,4 +36,5 @@ func main() {
 	syntax.Generic()
 	syntax.Goroutines()
 	syntax.Channels()
+	syntax.ChannelBuffering()
 }
