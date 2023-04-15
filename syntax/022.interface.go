@@ -22,12 +22,12 @@ func personTask(p Person) {
 func Interface() {
 	fmt.Println("Learn Go Interface")
 
-	e := Employees{firstName: "John", surname: "Doe"}
-	personTask(e)
-
 	/* Interface */
 	/*
 		//--------------------------------------------------
+		e := Employees{firstName: "John", surname: "Doe"}
+		personTask(e)
+
 		fmt.Println(person{"Bob", 20})
 		fmt.Println(person{name: "Alice", age: 30})
 		fmt.Println(person{name: "Fred"})
