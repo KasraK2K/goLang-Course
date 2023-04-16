@@ -38,4 +38,5 @@ func main() {
 	syntax.Channels()
 	syntax.ChannelBuffering()
 	syntax.ChannelSynchronization()
+	syntax.ChannelDirections()
 }
