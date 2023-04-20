@@ -19,7 +19,7 @@ func Select() {
 		}()
 
 		go func() {
-			time.Sleep(2 * time.Second)
+			time.Sleep(4 * time.Second)
 			c2 <- "two"
 		}()
 
