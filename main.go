@@ -41,4 +41,5 @@ func main() {
 	syntax.ChannelDirections()
 	syntax.Select()
 	syntax.Timeouts()
+	syntax.NonBlockingChannelOperations()
 }
