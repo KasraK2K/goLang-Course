@@ -7,7 +7,7 @@ import (
 func ClosingChannels() {
 	fmt.Println("Learn Go Closing Channels")
 
-	/* Non-Blocking Closing Channels */
+	/* Closing Channels */
 	/*
 		//--------------------------------------------------
 		jobs := make(chan int, 5)
