@@ -42,4 +42,5 @@ func main() {
 	syntax.Select()
 	syntax.Timeouts()
 	syntax.NonBlockingChannelOperations()
+	syntax.ClosingChannels()
 }
