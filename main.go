@@ -1,13 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"goLang-Course/syntax"
 )
 
 func main() {
-	fmt.Println("goLang Tutorial with code and comment") // Example of print message
-
 	// Basics
 	syntax.Variables() // In this line `basics` is name of package we wrote in variables file eq: package basics
 	syntax.Constants()
@@ -43,4 +40,5 @@ func main() {
 	syntax.Timeouts()
 	syntax.NonBlockingChannelOperations()
 	syntax.ClosingChannels()
+	syntax.RangeOverChannels()
 }
